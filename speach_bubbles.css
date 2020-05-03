@@ -1,0 +1,52 @@
+@-moz-document domain("lattenrost.piratenpartei.de") {
+.post__content .post__body {
+    background-color: rgba(100,100,100,0.3) !important;
+    border-radius: 8px;
+    margin-bottom: 0.3rem;
+} 
+.post--comment .post__body p {
+    width:unset !important;
+}
+
+.post-list__dynamic .current--user .post__content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.post-list__dynamic .current--user .post__body { 
+    border-radius: 8px;
+    text-align:right;
+    background-color: rgba(200,100,0,0.5) !important;
+    margin-left:1rem;
+    margin-bottom: 0.3rem;
+}
+.post-list__dynamic .current--user .post__header .col {
+    text-align: right !important;
+    display:inline;
+}
+.post-list__dynamic .current--user .col__name {
+    float:right;
+}
+.post-list__dynamic .current--user .col__reply {
+    display:flex !important;
+    left:0;
+    right:initial !important;
+    position: absolute;
+    clear:both;
+}
+.post-list__dynamic .current--user .post__header--info .col {
+    display:flex;
+    flex-direction: row-reverse;
+}
+.post-list__dynamic .current--user .post__header {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding:0 !important;
+}
+.post-list__dynamic .current--user .dropdown-menu {
+    right: inherit !important;
+    left:0px !important;
+}
+
+}
