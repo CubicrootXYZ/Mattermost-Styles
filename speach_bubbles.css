@@ -12,11 +12,13 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
+    justify-content:flex-end;
+    flex-wrap:wrap;
 }
 .post-list__dynamic .current--user .post__body { 
     border-radius: 8px;
     text-align:right;
-    background-color: rgba(200,100,0,0.5) !important;
+    background-color: rgba(190,110,0,0.4) !important;
     margin-left:1rem;
     margin-bottom: 0.3rem;
 }
